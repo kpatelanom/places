@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_KEY = 'AIzaSyDAoP9JuCQSVNCyHauPg5-Zwo9njXBHIbs';
+
 const API_URL = 'https://maps.googleapis.com/maps/api/place';
 
 export const placeSearch = (lat, long, radius) => {
